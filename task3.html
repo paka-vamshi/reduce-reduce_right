@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         people = [{ name: "John", age: 17 },{ name: "Jane", age: 22 },{ name: "Jim", age: 15 },{ name: "Jack", age: 19 }];
+        adults = people.filter(function(person) {
+             return person.age >= 18;
+         });
+
+         console.log(adults);
+
+    </script>
+</body>
+</html>
